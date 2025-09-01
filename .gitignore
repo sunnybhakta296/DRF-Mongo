@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+
+# Django
+*.sqlite3
+
+# Ignore cache in migrations but keep migration files
+shop/api/migrations/__pycache__/
+
+# Ignore cache in shop directory
+shop/__pycache__/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+db.sqlite3
